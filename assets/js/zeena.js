@@ -871,7 +871,7 @@
           .animate({
             scrollTop: $(target.attr("href")).offset().top - headerH + "px"
           },
-            1200,
+            120,
             "easeInOutExpo"
           );
         anchor.removeClass("current");
